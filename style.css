@@ -1,54 +1,37 @@
-body {
-    font-family: Arial, sans-serif;
-    font-style: italic;
-    font-display:calc();
-    margin: 0;
-    padding: 0;
-    background-color: #9898cc;
+/* Your existing CSS styles */
+
+/* Additional styles for sections */
+h1{
+    color:rgb(35, 12, 148);
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
 }
-.container {
-    max-width: 800px;
-    margin: 50px auto;
-    background-color: #b5dbec;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(137, 86, 86, 0.1);
+body{
+   
+
+    border-style:solid;
+    border: 5px outset rgb(59, 24, 105);
+    background-color: rgb(238, 241, 243);
+    
+;
 }
-h1, h2, h3 {
-    color: #3c0c84;
-}
-p {
-    color: #16924a;
-}
-.section {
-    margin-bottom: 30px;
-}
-.section-title {
-    margin-bottom: 10px;
-    border-bottom: 2px solid #640c1633;
-    padding-bottom: 5px;
-}
-.experience {
-    margin-top: 20px;
-}
-.experience .job {
-    margin-bottom: 15px;
-}
-.experience .job .title {
-    font-weight: bold;
-}
-.experience .job .company {
-    color: #777;
-}
-.education {
-    margin-top: 20px;
-}
-.education .degree {
-    margin-bottom: 15px;
-}
-.education .degree .title {
-    font-weight: bold;
-}
-.education .degree .institution {
-    color: #777;
-}
+section {
+    margin-bottom: 40px;
+    }
+  
+  section h2 {
+    color: #4b0da1;
+    border-bottom: 2px solid #333;
+    padding-bottom: 8px;
+    margin-bottom: 50px;
+  }
+/* Additional styles for the preview section */
+.preview-container {
+    border: 1px solid #511111;
+    padding: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #9891a0;
+    box-shadow: 0 0 10px rgba(83, 22, 22, 0.1);
+  }  
